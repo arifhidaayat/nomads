@@ -142,9 +142,77 @@ header {
   h2 {
     font-family: "Playfair Display", serif;
     font-weight: bold;
+    font-size: 40px;
+  }
+  p {
+    font-size: 18px;
   }
 
   .img-partner {
     max-width: 200px;
+  }
+}
+.section-testimonial-heading {
+  background-color: #fff;
+  padding-top: 50px;
+  min-height: 506px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+
+    .testimonial-content {
+      max-height: 380px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    .testimonial {
+      font-weight: 200;
+      font-size: 26px;
+    }
+
+    .trip-to {
+      font-weight: normal;
+      font-size: 22px;
+    }
+  }
+
+  .btn-get-started {
+    background-color: orangered;
+    color: #fff;
+
+    &:hover {
+      background-color: orange;
+    }
+  }
+  .btn-need-help {
+    background-color: rgb(196, 158, 109);
+    color: rgb(85, 71, 71);
+
+    &:hover {
+      background-color: orange;
+    }
+  }
+}
+.section-footer {
+  a {
+    color: #071c4d;
   }
 }

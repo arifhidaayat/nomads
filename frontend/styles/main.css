@@ -120,7 +120,67 @@ header .btn-get-started:hover {
 .section-networks h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  font-size: 40px;
+}
+.section-networks p {
+  font-size: 18px;
 }
 .section-networks .img-partner {
   max-width: 200px;
+}
+
+.section-testimonial-heading {
+  background-color: #fff;
+  padding-top: 50px;
+  min-height: 506px;
+}
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content {
+  max-height: 380px;
+}
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+}
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 200;
+  font-size: 26px;
+}
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+}
+.section-testimonial-content .btn-get-started {
+  background-color: orangered;
+  color: #fff;
+}
+.section-testimonial-content .btn-get-started:hover {
+  background-color: orange;
+}
+.section-testimonial-content .btn-need-help {
+  background-color: rgb(196, 158, 109);
+  color: rgb(85, 71, 71);
+}
+.section-testimonial-content .btn-need-help:hover {
+  background-color: orange;
+}
+
+.section-footer a {
+  color: #071c4d;
 }/*# sourceMappingURL=main.css.map */
